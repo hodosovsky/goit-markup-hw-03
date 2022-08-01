@@ -1,0 +1,225 @@
+:root {
+  /* основний колір фона */
+  --main-bcg-color: #ffffff;
+  /* основний колір тексту */
+  --main-text-color: #757575;
+  /* Колір тексту заголовків */
+  --title-color: #212121;
+  /* колір основного заголовка */
+  --hero-title: #ffffff;
+  /* колір логотипа Web */
+  --logo-web-color: #2196f3;
+  /* колір studio в хедері */
+  --studio-header: #000000;
+  /* колір studio в футері */
+  --studio-footer: #ffffff;
+  /* колір тексту в кнопкі */
+  --button-text-color: #ffffff;
+  /* колір тексту адреси в футері */
+  --adress-text-color: #ffffff;
+  /* колір контактів в футері */
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  /* колір фона секції героя і футер */
+  --hero-bcg: #2f303a;
+  /* колір секції наша команда */
+  --team-bcg: #f5f4fa;
+  /* колір ховера */
+  --hover-color: #2196f3;
+  /* фон кнопки */
+  --button-bcg: #2196f3;
+  /* колір фона ховера кнопки */
+  --button-hover: #188ce8;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  background-color: var(--main-bcg-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* логотип */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--logo-web-color);
+}
+
+.studio {
+  color: var(--studio-header);
+}
+
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.current {
+  color: var(--hover-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-color);
+}
+
+.contacts {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--hover-color);
+}
+
+/* секція герой */
+.hero {
+  background-color: var(--hero-bcg);
+}
+
+.hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-title);
+}
+
+.hero .button {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-text-color);
+  background-color: var(--button-bcg);
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  background-color: var(--button-hover);
+}
+
+/* особливості */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.section .subtitle {
+  color: var(--title-color);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.description {
+  line-height: 1.7;
+}
+
+/* чим ми займаємось */
+.section .title {
+  color: var(--title-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* наша команда */
+.team {
+  background-color: var(--team-bcg);
+}
+.team .person {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team .job {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* футер */
+.footer {
+  background-color: var(--hero-bcg);
+}
+
+.foot-studio {
+  color: var(--studio-footer);
+}
+
+.foot-info {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--contacts-text-color);
+}
+
+.adress {
+  color: var(--adress-text-color);
+}
+
+.foot-info:hover,
+.foot-info:focus {
+  color: var(--hover-color);
+}
+
+/* Портфоліо */
+/* кнопки фільтру */
+.filter {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--hover-color);
+  color: var(--button-text-color);
+}
+
+.portfolio .title {
+  color: var(--title-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .category {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--main-text-color);
+}
