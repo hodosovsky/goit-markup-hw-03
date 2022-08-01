@@ -79,7 +79,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 2px solid aqua;
+  /* outline: 2px solid aqua; */
 }
 
 .site-nav {
@@ -151,7 +151,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title);
-  outline: 2px solid orange;
+  /* outline: 2px solid orange; */
 }
 
 .hero .button {
