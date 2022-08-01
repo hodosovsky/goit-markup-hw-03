@@ -130,9 +130,9 @@ img {
   margin-left: 50px;
 }
 
-section {
+/* section {
   padding-bottom: 94px;
-}
+} */
 
 /* секція герой */
 .hero {
@@ -178,6 +178,12 @@ section {
 /* особливості */
 .features {
   display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.features .item {
+  width: calc((100% - 90px) / 4);
 }
 
 .features .item + .item {
@@ -212,6 +218,10 @@ section {
 /* чим ми займаємось */
 .works {
   display: flex;
+  margin-bottom: 94px;
+}
+.works .item {
+  width: calc((100% - 60px) / 3);
 }
 
 .works .item + .item {
@@ -229,10 +239,13 @@ section {
 /* наша команда */
 .team-list {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list .item {
   text-align: center;
+  width: calc((100% - 90px) / 4);
   padding-bottom: 30px;
 }
 
@@ -297,6 +310,7 @@ section {
 /* кнопки фільтру */
 .filter {
   cursor: pointer;
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -316,10 +330,45 @@ section {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .portfolio .category {
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+
+.portf-cont {
+  margin-top: 94px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.flex-container .item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-container .item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.flex-container .item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
