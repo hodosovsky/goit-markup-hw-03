@@ -139,9 +139,10 @@ img {
   margin-left: 50px;
 }
 
-/* section {
+.section {
+  padding-top: 94px;
   padding-bottom: 94px;
-} */
+}
 
 /* секція герой */
 .hero {
@@ -187,8 +188,6 @@ img {
 /* особливості */
 .features {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .features .item {
@@ -225,9 +224,12 @@ img {
 }
 
 /* чим ми займаємось */
+
+.what-we-do {
+  padding-top: 0;
+}
 .works {
   display: flex;
-  margin-bottom: 94px;
 }
 .works .item {
   width: calc((100% - 60px) / 3);
@@ -248,14 +250,11 @@ img {
 /* наша команда */
 .team-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-list .item {
   text-align: center;
   width: calc((100% - 90px) / 4);
-  padding-bottom: 30px;
   background-color: --main-bcg-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -269,18 +268,18 @@ img {
   background-color: var(--team-bcg);
 }
 .team .person {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 30;
+  margin-bottom: 10;
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
 .team .job {
-  margin-top: 0;
-  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 30;
 }
 
 /* футер */
@@ -343,6 +342,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-align: start;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 20px;
@@ -357,17 +357,23 @@ img {
   line-height: 1.88;
   color: var(--main-text-color);
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  /* margin-bottom: 20px; */
   padding-left: 24px;
+  padding-bottom: 20px;
   border-right: 1px solid var(--card-border);
   border-left: 1px solid var(--card-border);
   border-bottom: 1px solid var(--card-border);
 }
 
+.portfolio-section {
+  padding-top: 0;
+}
+
 .portf-cont {
-  margin-top: 33px;
+  margin-top: 34px;
   border-top: 1px solid var(--border-portfolio);
-  padding-top: 60px;
+  padding-top: 59px;
 }
 
 .flex-container {
@@ -378,7 +384,7 @@ img {
 .btn-flex {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 34px;
 }
 
 .flex-container .item {
