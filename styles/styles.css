@@ -61,7 +61,14 @@ img {
   text-decoration: none;
 }
 
-/* логотип */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* outline: 2px solid aqua; */
+}
+
+/* Хедер */
 .header {
   border-bottom: 1px solid var(--border-color);
 }
@@ -72,8 +79,10 @@ img {
 .head-nav {
   display: flex;
 }
+
 .logo {
-  align-self: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -82,13 +91,6 @@ img {
 
 .studio {
   color: var(--studio-header);
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  /* outline: 2px solid aqua; */
 }
 
 .site-nav {
@@ -321,6 +323,15 @@ img {
 
 /* Портфоліо */
 /* кнопки фільтру */
+.portfolio-section {
+  padding-top: 34px;
+}
+
+.portf-cont {
+  border-top: 1px solid var(--border-portfolio);
+  padding-top: 59px;
+}
+
 .filter {
   cursor: pointer;
   padding: 6px 22px;
@@ -338,13 +349,10 @@ img {
   color: var(--button-text-color);
 }
 
-.portfolio .about {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-  border-right: 1px solid var(--card-border);
-  border-left: 1px solid var(--card-border);
-  border-bottom: 1px solid var(--card-border);
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
 }
 
 .portfolio .title {
@@ -365,24 +373,18 @@ img {
   margin-bottom: 20px;
 }
 
-.portfolio-section {
-  padding-top: 34px;
-}
-
-.portf-cont {
-  border-top: 1px solid var(--border-portfolio);
-  padding-top: 59px;
+.portfolio .about {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right: 1px solid var(--card-border);
+  border-left: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-}
-
-.btn-flex {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 34px;
 }
 
 .flex-container .item {
