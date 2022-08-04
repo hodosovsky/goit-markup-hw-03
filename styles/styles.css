@@ -145,10 +145,11 @@ img {
 }
 
 /* секція герой */
+
 .hero {
   background-color: var(--hero-bcg);
-}
-.hero {
+  background-size: 1600px 60px;
+  padding: 200px 452px;
   text-align: center;
 }
 
@@ -337,6 +338,15 @@ img {
   color: var(--button-text-color);
 }
 
+.portfolio .about {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right: 1px solid var(--card-border);
+  border-left: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
+}
+
 .portfolio .title {
   color: var(--title-color);
   font-size: 18px;
@@ -344,12 +354,7 @@ img {
   letter-spacing: 0.06em;
   text-align: start;
   margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 20px;
-  padding-bottom: 4px;
-  padding-left: 24px;
-  border-right: 1px solid var(--card-border);
-  border-left: 1px solid var(--card-border);
+  margin-bottom: 4px;
 }
 
 .portfolio .category {
@@ -357,13 +362,7 @@ img {
   line-height: 1.88;
   color: var(--main-text-color);
   margin-top: 0;
-  margin-bottom: 0;
-  /* margin-bottom: 20px; */
-  padding-left: 24px;
-  padding-bottom: 20px;
-  border-right: 1px solid var(--card-border);
-  border-left: 1px solid var(--card-border);
-  border-bottom: 1px solid var(--card-border);
+  margin-bottom: 20px;
 }
 
 .portfolio-section {
