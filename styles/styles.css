@@ -366,11 +366,10 @@ img {
 }
 
 .portfolio-section {
-  padding-top: 0;
+  padding-top: 34px;
 }
 
 .portf-cont {
-  margin-top: 34px;
   border-top: 1px solid var(--border-portfolio);
   padding-top: 59px;
 }
