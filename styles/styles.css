@@ -115,6 +115,8 @@ img {
 }
 .current {
   color: var(--hover-color);
+  border-bottom: 4px solid var(--hover-color);
+  border-radius: 2px;
 }
 
 .nav-link:hover,
