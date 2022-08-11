@@ -31,8 +31,6 @@
   --button-hover: #188ce8;
   /* Бордер хедера */
   --border-color: #ececec;
-  /* бордер сторінки портфоліо */
-  --border-portfolio: #d9d9d9;
   /* бордер карточки портфоліо */
   --card-border: #eeeeee;
 }
@@ -327,15 +325,6 @@ img {
 
 /* Портфоліо */
 /* кнопки фільтру */
-.portfolio-section {
-  padding-top: 34px;
-}
-
-.portf-cont {
-  border-top: 1px solid var(--border-portfolio);
-  padding-top: 59px;
-}
-
 .filter {
   cursor: pointer;
   border: 0px;
