@@ -151,7 +151,8 @@ img {
 
 .hero {
   background-color: var(--hero-bcg);
-  background-size: 1600px 60px;
+  width: 1600px;
+  margin: 0 auto;
   padding: 200px 452px;
   text-align: center;
 }
