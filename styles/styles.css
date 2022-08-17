@@ -33,6 +33,8 @@
   --border-color: #ececec;
   /* бордер карточки портфоліо */
   --card-border: #eeeeee;
+  /* колір іконок секції наша команда */
+  --social-network-color: #afb1b8;
 }
 
 body {
